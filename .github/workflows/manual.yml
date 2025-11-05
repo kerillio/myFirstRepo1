@@ -7,5 +7,6 @@ jobs:
             - name: print to console
               run: echo Hello world!
             - name: print few lines
-              run: echo first line
+              run: |
+                    echo first line
                     echo second line
