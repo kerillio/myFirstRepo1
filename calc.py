@@ -12,8 +12,6 @@ num2 = int(strArray[2])
 
 print (char, ', ', num1, ', ', num2)
 
-//новая строчка комментария
-
 
 if char == '+':
     print('result: ', num1+num2)
