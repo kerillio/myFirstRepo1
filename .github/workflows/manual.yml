@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          python3 /../../calc.py
+          python3 /home/runner/work/myFirstRepo/calc.py
           4 + 5
 
 
