@@ -9,7 +9,6 @@ print(strArray)
 char = strArray[1]
 num1 = int(strArray[0])
 num2 = int(strArray[2])
-num3 = 3
 
 print (char, ', ', num1, ', ', num2)
 
