@@ -9,4 +9,6 @@ jobs:
       - name: install deps
         run: sudo apt install python3
       - name: testing
-        run: python3 calc.py
+        run: |
+          python3 calc.py
+          4 + 5
