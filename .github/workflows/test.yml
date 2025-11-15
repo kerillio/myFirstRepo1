@@ -6,9 +6,9 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
-      - name: install deps
-        run: sudo apt install python3
-      - name: testing
+      - name: Install dependencies
         run: |
-          python3 calc.py
-          4 + 5
+            python -m pip install --upgrade pip
+            pip install pytest 
+      - name: testing
+        run: pytest calc.py
