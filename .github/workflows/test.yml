@@ -11,4 +11,4 @@ jobs:
             python -m pip install --upgrade pip
             pip install pytest 
       - name: testing
-        run: pytest calc.py
+        run: pytest -s calc.py
