@@ -13,9 +13,9 @@ class testCalc(unittest.TestCase):
     def test_multiply(self):
         self.assertEqual(self.calc.multiply(2, 2), 4)
     def test_divide(self):
-        self.assertEqual(self.calc.divide(3, 2), 1)
+        self.assertEqual(self.calc.divide(4, 2), 2)
     def test_substract(self):
-        self.assertEqual(self.calc.subtract(10, 5), 2)
+        self.assertEqual(self.calc.subtract(10, 5), 5)
     
 if __name__ == "__main__":
     unittest.main()
